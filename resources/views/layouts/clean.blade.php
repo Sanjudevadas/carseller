@@ -31,7 +31,7 @@
     <link rel="stylesheet" href="css/app.css" />
     <!-- <link rel="stylesheet" href="css/output.css" /> -->
   </head>
-  <body class="{{$cssClass}}">
+  <body class="{{ isset($cssClass) ? $cssClass : 'default-class' }}">
 
   @yield('childContent')
     

@@ -7,7 +7,11 @@
 
   @yield('content')
 
-  <footer></footer>
+  <footer>
+   
+  @yield('footerLinks')
+
+  </footer>
 @endsection
 
 
