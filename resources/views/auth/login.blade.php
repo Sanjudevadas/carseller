@@ -14,9 +14,9 @@
       >
     </div>
 
-    <button class="btn btn-primary btn-login w-full">Login</button>
-
+   
   </form>
+ 
 <x-slot:footerLink>
   Don't have an account? -
   <a href="/signup.html"> Click here to create one</a>

@@ -12,7 +12,7 @@
                   </a>
                 </div>
              {{$slot}}
-             <button class="btn btn-primary btn-login w-full">Register</button>
+             <button class="btn btn-primary btn-login w-full">Login</button>
 
              <div class="grid grid-cols-2 gap-1 social-auth-buttons">
             <x-google-button/>

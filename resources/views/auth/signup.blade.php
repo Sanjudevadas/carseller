@@ -24,6 +24,7 @@
     </div>
    
   </form>
+ 
 
   <x-slot:footerLink>
     Already have an account? -
