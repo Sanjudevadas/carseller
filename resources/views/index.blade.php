@@ -1,11 +1,6 @@
 <x-app-layout>
  
-  <x-card>
-  <x-slot name="title">Card Title </x-slot>
-    Card Component 1
-  
-    <x-slot name="footer">Card Footer</x-slot>
-  </x-card>
+
     
          <!-- Home Slider -->
      <section class="hero-slider">
@@ -100,7 +95,7 @@
       <!-- Find a car form -->
    
   
-      <x-search-form action="{{ url('/search') }}" method="GET"/>
+      <x-search-form />
   
   
       <!--/ Find a car form -->
@@ -122,12 +117,7 @@
       </section>
       <!--/ New Cars -->
     </main>
-<x-slot:footerLinks>
 
-  <a href="#">Link 3</a>
-  <a href="#">Link 4</a>
-
-</x-slot:footerLinks>
     
 </x-app-layout>
 
