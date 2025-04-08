@@ -17,7 +17,7 @@ return new class extends Migration
       $table->foreignId('model_id')->constrained('models');  
      $table->integer('year');
      $table->integer('price');
-     $table->integer('vin',255);
+     $table->string('vin',255)->unique();
      $table->integer('mileage');
      $table->foreignId('car_type_id')->constrained('car_types');
      $table->foreignId('fuel_type_id')->constrained('fuel_types');
