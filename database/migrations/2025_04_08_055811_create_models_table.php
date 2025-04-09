@@ -14,7 +14,10 @@ return new class extends Migration
         Schema::create('models', function (Blueprint $table) {
             $table->id();
             $table->string('name',45);
-         $table->foreignId('model_id')->constrained('models');
+            $table->foreignId('maker_id')->constrained('makers');
+
+        
+//            $table->foreignId('model_id')->constrained('models');
         });
     }
 

@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('states', function (Blueprint $table) {
             $table->id();
             $table->string('name',45);
-         $table->foreignId('state_id')->constrained('states');
+      //   $table->foreignId('state_id')->constrained('states');
         });
     }
 
